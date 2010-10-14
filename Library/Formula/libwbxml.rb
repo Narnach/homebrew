@@ -11,7 +11,7 @@ class Libwbxml <Formula
     mkdir "build"
     Dir.chdir "build" do
       system "cmake ../ #{std_cmake_parameters}"
-      system "make install/local"
+      system "make install"
     end
   end
 end
